@@ -23,7 +23,7 @@ export const projects = [
     role: "Team project for Engineering Design 2",
     tech: ["Python", "TensorFlow", "Google Colab", "JavaScript"],
     github: "https://github.com/cdowning2022/narcolepsy-detection",
-    demo: null,
+    demo: "https://youtu.be/R3L0COZ5d-k",
     featured: true,
   },
   {

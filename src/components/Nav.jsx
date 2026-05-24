@@ -7,12 +7,12 @@ function Nav() {
   ];
 
   return (
-    <nav className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-gray-100">
+    <nav className="sticky top-0 z-10 bg-slate-50/80 backdrop-blur border-b border-slate-200">
       <div className="max-w-3xl mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#top" className="font-semibold">cole.dev</a>
-        <div className="flex gap-6 text-sm text-gray-600">
+        <a href="#top" className="font-semibold text-indigo-600">cole.dev</a>
+        <div className="flex gap-6 text-sm text-slate-500">
           {links.map(link => (
-            <a key={link.href} href={link.href} className="hover:text-gray-900 transition">
+            <a key={link.href} href={link.href} className="hover:text-slate-900 transition">
               {link.label}
             </a>
           ))}

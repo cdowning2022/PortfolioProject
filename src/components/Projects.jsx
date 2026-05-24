@@ -2,7 +2,7 @@ import { projects } from "../data";
 
 function Projects() {
   return (
-    <section id="projects" className="max-w-3xl mx-auto px-6 py-16 border-t border-gray-100">
+    <section id="projects" className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-200">
       <h2 className="text-2xl font-semibold mb-6">Projects</h2>
       <div className="grid gap-4">
         {projects.map(project => (
@@ -15,7 +15,7 @@ function Projects() {
 
 function ProjectCard({ project }) {
   return (
-    <div className="border border-gray-200 rounded-xl p-6 hover:border-gray-400 transition">
+    <div className="border border-slate-200 rounded-xl p-6 hover:border-indigo-400 transition">
       <div className="flex justify-between items-start mb-2">
         <h3 className="text-xl font-semibold">{project.title}</h3>
         <div className="flex gap-3 text-sm">
@@ -24,7 +24,7 @@ function ProjectCard({ project }) {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900"
+              className="text-slate-500 hover:text-slate-900 transition"
             >
               Code ↗
             </a>
@@ -34,20 +34,20 @@ function ProjectCard({ project }) {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800"
+              className="text-indigo-600 hover:text-indigo-800 transition"
             >
               Demo ↗
             </a>
           )}
         </div>
       </div>
-      <p className="text-sm text-gray-500 mb-3">{project.role}</p>
-      <p className="text-gray-700 mb-4 leading-relaxed">{project.description}</p>
+      <p className="text-sm text-slate-500 mb-3">{project.role}</p>
+      <p className="text-slate-600 mb-4 leading-relaxed">{project.description}</p>
       <div className="flex flex-wrap gap-2">
         {project.tech.map(t => (
           <span
             key={t}
-            className="px-2 py-0.5 bg-gray-100 text-gray-700 text-xs rounded"
+            className="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs rounded"
           >
             {t}
           </span>
