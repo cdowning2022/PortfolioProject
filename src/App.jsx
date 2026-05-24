@@ -1,7 +1,19 @@
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
 function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      <h1 className="text-3xl font-bold p-8">Cole Downing</h1>
+      <Nav />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function Hero() {
         {profile.tagline}
       </p>
       <div className="flex gap-3 flex-wrap">
-        
+        <a
           href={profile.github}
           target="_blank"
           rel="noopener noreferrer"
@@ -17,7 +17,7 @@ function Hero() {
         >
           GitHub ↗
         </a>
-        
+        <a
           href={profile.linkedin}
           target="_blank"
           rel="noopener noreferrer"
@@ -25,13 +25,13 @@ function Hero() {
         >
           LinkedIn ↗
         </a>
-        
+        <a
           href={`mailto:${profile.email}`}
           className="px-4 py-2 border border-gray-300 rounded-lg text-sm hover:bg-gray-50 transition"
         >
           Email
         </a>
-        
+        <a
           href="/Resume_ColeDowning .pdf"
           target="_blank"
           rel="noopener noreferrer"
