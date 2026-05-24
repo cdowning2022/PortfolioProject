@@ -3,7 +3,10 @@ import { projects } from "../data";
 function Projects() {
   return (
     <section id="projects" className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-200">
-      <h2 className="text-2xl font-semibold mb-6">Projects</h2>
+      <div className="mb-6">
+        <h2 className="text-2xl font-semibold">Projects</h2>
+        <div className="mt-2 w-8 h-0.5 bg-indigo-500 rounded-full" />
+      </div>
       <div className="grid gap-4">
         {projects.map(project => (
           <ProjectCard key={project.title} project={project} />
@@ -15,7 +18,8 @@ function Projects() {
 
 function ProjectCard({ project }) {
   return (
-    <div className="border border-slate-200 rounded-xl p-6 hover:border-indigo-400 transition">
+    <div className="relative bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition overflow-hidden">
+      <div className="absolute left-0 top-0 bottom-0 w-1 bg-indigo-500 rounded-l-xl" />
       <div className="flex justify-between items-start mb-2">
         <h3 className="text-xl font-semibold">{project.title}</h3>
         <div className="flex gap-3 text-sm">

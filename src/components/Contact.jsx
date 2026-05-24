@@ -3,7 +3,10 @@ import { profile } from "../data";
 function Contact() {
   return (
     <section id="contact" className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-200">
-      <h2 className="text-2xl font-semibold mb-6">Get in touch</h2>
+      <div className="mb-6">
+        <h2 className="text-2xl font-semibold">Get in touch</h2>
+        <div className="mt-2 w-8 h-0.5 bg-indigo-500 rounded-full" />
+      </div>
       <p className="text-slate-600 mb-6 leading-relaxed">
         I'm looking for entry-level software engineering and ML roles. If you think we'd be a good fit, I'd love to hear from you.
       </p>
