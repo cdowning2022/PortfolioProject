@@ -12,7 +12,7 @@ function About() {
         <span className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 shadow-sm">FAU — CS Senior</span>
         <span className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 shadow-sm">Graduating Aug 2026</span>
         <span className="px-3 py-1.5 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 shadow-sm">Lake Mary, FL</span>
-        <span className="px-3 py-1.5 bg-indigo-50 border border-indigo-200 rounded-lg text-sm text-indigo-700 shadow-sm">Open to SWE / ML roles</span>
+        <span className="px-3 py-1.5 bg-indigo-50 border border-indigo-200 rounded-lg text-sm text-indigo-700 shadow-sm">Entry-level SWE / IT / Cybersecurity</span>
       </div>
     </section>
   );

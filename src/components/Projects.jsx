@@ -23,16 +23,6 @@ function ProjectCard({ project }) {
       <div className="flex justify-between items-start mb-2">
         <h3 className="text-xl font-semibold">{project.title}</h3>
         <div className="flex gap-3 text-sm">
-          {project.github && (
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-500 hover:text-slate-900 transition"
-            >
-              Code ↗
-            </a>
-          )}
           {project.demo && (
             <a
               href={project.demo}
@@ -46,17 +36,7 @@ function ProjectCard({ project }) {
         </div>
       </div>
       <p className="text-sm text-slate-500 mb-3">{project.role}</p>
-      <p className="text-slate-600 mb-4 leading-relaxed">{project.description}</p>
-      <div className="flex flex-wrap gap-2">
-        {project.tech.map(t => (
-          <span
-            key={t}
-            className="px-2 py-0.5 bg-indigo-50 text-indigo-700 text-xs rounded"
-          >
-            {t}
-          </span>
-        ))}
-      </div>
+      <p className="text-slate-600 leading-relaxed">{project.description}</p>
     </div>
   );
 }

@@ -7,7 +7,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/cole-downing-991309218",
 };
 
-export const about = `Computer Science senior at Florida Atlantic University, graduating August 2026. Currently exploring the intersection of machine learning through a senior project on deep learning for narcolepsy detection. Looking for entry-level software engineering or ML roles where I can keep building and learning.`;
+export const about = `Computer Science senior at Florida Atlantic University, graduating August 2026. Currently exploring the intersection of machine learning through a senior project on deep learning for narcolepsy detection. Looking for entry-level software engineering, IT, or cybersecurity roles where I can keep building and learning.`;
 
 export const skills = {
   Languages: ["Python", "Java", "C/C++", "C#", "JavaScript", "Swift", "SQL"],

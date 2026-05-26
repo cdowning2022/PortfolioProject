@@ -6,7 +6,7 @@ function Hero() {
       <div className="max-w-3xl mx-auto px-6 pt-20 pb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-medium mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
-          Open to SWE &amp; ML roles
+          Open to SWE, IT &amp; Cybersecurity roles
         </div>
         <p className="text-sm text-slate-500 mb-2">Hi, I'm</p>
         <h1 className="text-5xl font-bold mb-4">{profile.name}</h1>
