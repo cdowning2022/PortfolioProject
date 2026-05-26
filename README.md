@@ -2,6 +2,7 @@
 
 Personal portfolio site built with React and Tailwind CSS.
 
+Website url: http://localhost:5173/#projects 
 
 ## Tech stack
 
