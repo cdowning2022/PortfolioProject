@@ -2,7 +2,6 @@
 
 Personal portfolio site built with React and Tailwind CSS.
 
-**Live site:** [coledowning.dev](https://coledowning.dev) *(add your deployed URL)*
 
 ## Tech stack
 
