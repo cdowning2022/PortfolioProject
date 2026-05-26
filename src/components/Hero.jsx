@@ -2,7 +2,7 @@ import { profile } from "../data";
 
 function Hero() {
   return (
-    <section id="top" className="w-full bg-gradient-to-br from-indigo-50 via-slate-50 to-slate-50 border-b border-slate-200">
+    <section id="top" className="w-full bg-linear-to-br from-indigo-50 via-slate-50 to-slate-50 border-b border-slate-200">
       <div className="max-w-3xl mx-auto px-6 pt-20 pb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-medium mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
@@ -37,7 +37,7 @@ function Hero() {
             Email
           </a>
           <a
-            href="/Resume_ColeDowning .pdf"
+            href="/Resume_ColeDowning.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 border border-slate-300 text-slate-700 rounded-lg text-sm hover:bg-slate-100 transition"
